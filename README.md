@@ -1,5 +1,7 @@
 # Weather-Aware Taxi Demand Prediction and Forecasting in New York City
 
+This is a submission-only repository. Find the original repository here[https://github.com/BA-CapstoneProject-12/nyc-taxi-demand-forecasting].
+
 How many taxi pickups will each zone see in the next hour, day or week, and what
 should a fleet operator do about it? This project answers that for **138 pickup
 zones in Manhattan and Queens**, using six months of Yellow and Green Taxi trips,
@@ -58,8 +60,7 @@ descriptions and known data issues.
 ## Setup
 
 ```bash
-pip install -r requirements.txt                                   # data, EDA, Review 1 models
-pip install -r requirements.txt -r requirements-time-series.txt   # adds Review 2 time series
+pip install -r requirements.txt
 ```
 
 Open the notebooks in VS Code with the Jupyter extension and pick the same
@@ -189,7 +190,6 @@ Nothing is retrained: the app uses the saved model, the team's forecasting code
 and the saved rules. Quick start:
 
 ```bash
-pip install -r dashboard/requirements.txt
 python dashboard/build_data.py    # one time only
 cd dashboard && streamlit run app.py
 ```
