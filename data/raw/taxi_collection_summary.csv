@@ -1,0 +1,13 @@
+taxi_type,month,source_url,file_size_mb,rows_in_file,borough_pickups,outside_period_dropped,rows_kept,manhattan_pickups,queens_pickups,duplicate_rows,dropoff_not_after_pickup,longer_than_6h,dropoff_zone_unknown
+yellow,2025-09,https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2025-09.parquet,72.4,4251015,4048172,6,4048166,3633590,414576,69685,56954,1048,23462
+yellow,2025-10,https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2025-10.parquet,75.3,4428699,4234338,0,4234338,3818197,416141,60660,67701,1062,24555
+yellow,2025-11,https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2025-11.parquet,71.1,4181444,3982596,3,3982593,3607966,374627,43004,61767,1131,22633
+yellow,2025-12,https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2025-12.parquet,73.7,4305006,4096636,0,4096636,3707215,389421,43414,57821,1193,24230
+yellow,2026-01,https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2026-01.parquet,64.2,3724889,3525433,0,3525433,3180607,344826,35256,44911,941,18925
+yellow,2026-02,https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2026-02.parquet,58.7,3399866,3209714,4,3209710,2909331,300379,24060,40419,851,16518
+green,2025-09,https://d37ci6vzurychx.cloudfront.net/trip-data/green_tripdata_2025-09.parquet,1.2,48893,40077,18,40059,27950,12109,108,24,77,536
+green,2025-10,https://d37ci6vzurychx.cloudfront.net/trip-data/green_tripdata_2025-10.parquet,1.2,49416,40573,0,40573,29233,11340,107,16,132,484
+green,2025-11,https://d37ci6vzurychx.cloudfront.net/trip-data/green_tripdata_2025-11.parquet,1.2,46912,38373,0,38373,27708,10665,115,23,116,406
+green,2025-12,https://d37ci6vzurychx.cloudfront.net/trip-data/green_tripdata_2025-12.parquet,1.2,48236,39806,0,39806,28850,10956,141,19,154,468
+green,2026-01,https://d37ci6vzurychx.cloudfront.net/trip-data/green_tripdata_2026-01.parquet,1.0,40272,32792,0,32792,23886,8906,106,15,81,426
+green,2026-02,https://d37ci6vzurychx.cloudfront.net/trip-data/green_tripdata_2026-02.parquet,0.9,37373,30502,2,30500,21983,8517,93,11,91,395

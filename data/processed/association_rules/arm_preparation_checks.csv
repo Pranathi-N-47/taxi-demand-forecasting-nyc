@@ -1,0 +1,30 @@
+check,passed,detail
+Unchanged input: data/processed/features.csv,True,SHA-256
+Unchanged input: data/raw/taxi_zones_manhattan_queens.csv,True,SHA-256
+Unchanged input: models/modeling/split_summary.csv,True,SHA-256
+Complete audit grid,True,576288
+Audit transaction IDs,True,576288
+Audit missing values,True,all fields
+Frozen parameter scope,True,2026-01-25 03:00:00
+Catalog roles,True,demand kept out of antecedents
+Unique items,True,24
+Metadata excluded from items,True,"no raw counts, lags, IDs or predictions"
+Demand interval boundaries,True,including ties and zeros
+Frozen temperature bins,True,"[-0.9, 9.9]"
+Weather flags,True,rain mm >0; snow cm >0
+DST exclusion,True,combined hour remains in audit
+train row alignment,True,320544
+train Boolean matrix,True,"(320544, 24)"
+train exact transaction encoding,True,saved matrix round trip
+train one item per family,True,8
+train valid mining population,True,96
+train zeros retained,True,25212
+train item frequencies,True,24
+test row alignment,True,80256
+test Boolean matrix,True,"(80256, 24)"
+test exact transaction encoding,True,saved matrix round trip
+test one item per family,True,8
+test valid mining population,True,96
+test zeros retained,True,6789
+Disjoint chronology,True,same cutoff across zones
+test item frequencies,True,24

@@ -1,0 +1,6 @@
+split,exclusion_reason,rows,zones,pickups
+test,none,80256,96,3870363
+test,train_mean_below_1,35112,42,16658
+train,dst_merged_hour,138,138,9166
+train,none,320544,96,17775327
+train,train_mean_below_1,140238,42,56603

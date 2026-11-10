@@ -1,0 +1,6 @@
+streamlit>=1.50
+plotly>=6.0
+pandas
+numpy
+scikit-learn==1.9.*   # must match the version the saved model was trained with
+joblib

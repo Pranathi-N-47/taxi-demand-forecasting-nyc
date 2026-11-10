@@ -1,0 +1,17 @@
+[
+  {
+    "path": "data/processed/features.csv",
+    "bytes": 48954327,
+    "sha256": "62f58f3e080b116b493e7ebe2cc21b5ac838031d317ba9df4ccf9782aa0d4c92"
+  },
+  {
+    "path": "data/raw/taxi_zones_manhattan_queens.csv",
+    "bytes": 8267,
+    "sha256": "ede1bec91e832e71cc39c4260259c52fc9f3b83edc5230a419f75fdba5831df0"
+  },
+  {
+    "path": "models/modeling/split_summary.csv",
+    "bytes": 151,
+    "sha256": "8afe3e48582f31fd33ff5d5bf89ae28dda449197621f1ab5c4e282882180957d"
+  }
+]

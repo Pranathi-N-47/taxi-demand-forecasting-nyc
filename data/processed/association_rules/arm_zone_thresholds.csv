@@ -1,0 +1,139 @@
+PULocationID,train_hours,train_mean,train_zero_share,q_low,q_high,distinct_counts,active,tied_thresholds,zone_cluster,Borough,Zone,service_zone
+2,3339,0.007786762503743636,0.992512728361785,0.0,0.0,3,False,True,near_empty,Queens,Jamaica Bay,Boro Zone
+4,3339,20.861335729260258,0.0035938903863432167,12.0,21.0,127,True,False,nightlife,Manhattan,Alphabet City,Yellow Zone
+7,3339,12.770290506139563,0.004492362982929021,9.0,14.0,63,True,False,morning_commute,Queens,Astoria,Boro Zone
+8,3339,0.07726864330637916,0.9272237196765498,0.0,0.0,4,False,True,near_empty,Queens,Astoria Park,Boro Zone
+9,3339,0.2386942198262953,0.8038334830787661,0.0,0.0,5,False,True,near_empty,Queens,Auburndale,Boro Zone
+10,3339,2.567235699311171,0.17430368373764601,1.0,3.0,18,True,False,morning_commute,Queens,Baisley Park,Boro Zone
+12,3339,1.4992512728361784,0.5025456723569931,0.0,1.0,19,True,False,daytime,Manhattan,Battery Park,Yellow Zone
+13,3339,34.54177897574124,0.0437256663671758,14.0,45.0,135,True,False,daytime,Manhattan,Battery Park City,Yellow Zone
+15,3339,0.2377957472297095,0.8062294100029949,0.0,0.0,5,False,True,near_empty,Queens,Bay Terrace/Fort Totten,Boro Zone
+16,3339,0.45133273435160226,0.6717580113806529,0.0,0.0,8,False,True,near_empty,Queens,Bayside,Boro Zone
+19,3339,0.5573525007487271,0.6073674752920036,0.0,1.0,7,False,False,near_empty,Queens,Bellerose,Boro Zone
+24,3339,16.659179395028453,0.014675052410901468,11.0,22.0,50,True,False,daytime,Manhattan,Bloomingdale,Yellow Zone
+27,3339,0.018867924528301886,0.9814315663372267,0.0,0.0,3,False,True,near_empty,Queens,Breezy Point/Fort Tilden/Riis Beach,Boro Zone
+28,3339,1.54177897574124,0.2866127583108715,1.0,2.0,12,True,False,morning_commute,Queens,Briarwood/Jamaica Hills,Boro Zone
+30,3339,0.020365378855944895,0.9802336028751123,0.0,0.0,3,False,True,near_empty,Queens,Broad Channel,Boro Zone
+38,3339,0.5905959868224019,0.6202455825097335,0.0,1.0,9,False,False,near_empty,Queens,Cambria Heights,Boro Zone
+41,3339,28.235699311171008,0.004791853848457622,19.0,35.0,88,True,False,daytime,Manhattan,Central Harlem,Boro Zone
+42,3339,20.216831386642706,0.002994908655286014,14.0,24.0,72,True,False,morning_commute,Manhattan,Central Harlem North,Boro Zone
+43,3339,74.20604971548367,0.04851752021563342,23.0,105.0,239,True,False,daytime,Manhattan,Central Park,Yellow Zone
+45,3339,12.863432165318958,0.03593890386343217,8.0,16.0,46,True,False,daytime,Manhattan,Chinatown,Yellow Zone
+48,3339,127.41509433962264,0.0,100.0,143.33333333333303,335,True,False,daytime,Manhattan,Clinton East,Yellow Zone
+50,3339,39.516621743036836,0.0026954177897574125,27.0,50.0,124,True,False,daytime,Manhattan,Clinton West,Yellow Zone
+53,3339,0.44923629829290207,0.6684636118598383,0.0,0.0,8,False,True,near_empty,Queens,College Point,Boro Zone
+56,3339,1.429769392033543,0.3420185684336628,0.0,2.0,14,True,False,morning_commute,Queens,Corona,Boro Zone
+57,3339,0.09433962264150944,0.9152440850554058,0.0,0.0,5,False,True,near_empty,Queens,Corona,Boro Zone
+64,3339,0.20455226115603475,0.827193770589997,0.0,0.0,6,False,True,near_empty,Queens,Douglaston,Boro Zone
+68,3339,141.0344414495358,0.0,93.0,186.33333333333303,357,True,False,daytime,Manhattan,East Chelsea,Yellow Zone
+70,3339,13.052111410601977,0.10452231206948188,7.0,17.0,54,True,False,daytime,Queens,East Elmhurst,Boro Zone
+73,3339,0.21174004192872117,0.8235998802036538,0.0,0.0,5,False,True,near_empty,Queens,East Flushing,Boro Zone
+74,3339,39.320455226115605,0.0056903264450434265,25.0,50.0,123,True,False,morning_commute,Manhattan,East Harlem North,Boro Zone
+75,3339,51.88409703504043,0.0002994908655286014,31.0,69.0,157,True,False,daytime,Manhattan,East Harlem South,Boro Zone
+79,3339,142.41389637616052,0.0,74.0,133.0,529,True,False,nightlife,Manhattan,East Village,Yellow Zone
+82,3339,5.699910152740341,0.026355196166516923,3.0,6.0,28,True,False,daytime,Queens,Elmhurst,Boro Zone
+83,3339,1.8427672955974843,0.2162324049116502,1.0,2.0,11,True,False,daytime,Queens,Elmhurst/Maspeth,Boro Zone
+86,3339,1.35549565738245,0.4076070679844265,0.0,2.0,12,True,False,morning_commute,Queens,Far Rockaway,Boro Zone
+87,3339,40.94699011680144,0.007487271638215035,23.0,46.0,169,True,False,daytime,Manhattan,Financial District North,Yellow Zone
+88,3339,21.121293800539082,0.0437256663671758,11.0,27.0,85,True,False,daytime,Manhattan,Financial District South,Yellow Zone
+90,3339,83.13027852650494,0.0,58.0,101.0,243,True,False,daytime,Manhattan,Flatiron,Yellow Zone
+92,3339,2.214734950584007,0.18358790056903265,1.0,3.0,17,True,False,daytime,Queens,Flushing,Boro Zone
+93,3339,0.8831985624438454,0.5423779574722971,0.0,1.0,27,False,False,near_empty,Queens,Flushing Meadows-Corona Park,Boro Zone
+95,3339,6.281521413596885,0.05870020964360587,4.0,8.0,48,True,False,daytime,Queens,Forest Hills,Boro Zone
+96,3339,0.09643605870020965,0.9131476489967056,0.0,0.0,4,False,True,near_empty,Queens,Forest Park/Highland Park,Boro Zone
+98,3339,0.33273435160227616,0.7361485474693021,0.0,0.0,5,False,True,near_empty,Queens,Fresh Meadows,Boro Zone
+100,3339,73.40281521413597,0.0,59.0,91.0,182,True,False,daytime,Manhattan,Garment District,Yellow Zone
+101,3339,0.3890386343216532,0.7085953878406709,0.0,0.0,10,False,True,near_empty,Queens,Glen Oaks,Boro Zone
+102,3339,0.8244983528002396,0.4989517819706499,0.0,1.0,9,False,False,near_empty,Queens,Glendale,Boro Zone
+103,3339,0.0,1.0,0.0,0.0,1,False,True,near_empty,Manhattan,Governor's Island/Ellis Island/Liberty Island,Yellow Zone
+104,3339,0.0,1.0,0.0,0.0,1,False,True,near_empty,Manhattan,Governor's Island/Ellis Island/Liberty Island,Yellow Zone
+105,3339,0.0017969451931716084,0.9982030548068284,0.0,0.0,2,False,True,near_empty,Manhattan,Governor's Island/Ellis Island/Liberty Island,Yellow Zone
+107,3339,107.39383048817011,0.0002994908655286014,77.0,130.0,322,True,False,daytime,Manhattan,Gramercy,Yellow Zone
+113,3339,78.07876609763402,0.0026954177897574125,53.666666666666515,98.0,219,True,False,daytime,Manhattan,Greenwich Village North,Yellow Zone
+114,3339,80.05001497454327,0.0017969451931716084,34.0,80.33333333333303,367,True,False,nightlife,Manhattan,Greenwich Village South,Yellow Zone
+116,3339,12.400718778077268,0.010482180293501049,8.0,14.0,55,True,False,morning_commute,Manhattan,Hamilton Heights,Boro Zone
+117,3339,1.3294399520814615,0.4225816112608565,0.0,1.0,14,True,False,morning_commute,Queens,Hammels/Arverne,Boro Zone
+120,3339,0.1323749625636418,0.877508235998802,0.0,0.0,3,False,True,near_empty,Manhattan,Highbridge Park,Boro Zone
+121,3339,1.0158730158730158,0.438754117999401,0.0,1.0,11,True,False,morning_commute,Queens,Hillcrest/Pomonok,Boro Zone
+122,3339,0.6361185983827493,0.6166516921233902,0.0,1.0,8,False,False,near_empty,Queens,Hollis,Boro Zone
+124,3339,0.7795747229709494,0.5088349805330937,0.0,1.0,8,False,False,near_empty,Queens,Howard Beach,Boro Zone
+125,3339,26.896376160527105,0.01497454327643007,18.0,34.0,85,True,False,daytime,Manhattan,Hudson Sq,Yellow Zone
+127,3339,2.899970050913447,0.14824797843665768,1.0,3.0,18,True,False,morning_commute,Manhattan,Inwood,Boro Zone
+128,3339,0.2557651991614256,0.7891584306678646,0.0,0.0,7,False,True,near_empty,Manhattan,Inwood Hill Park,Boro Zone
+129,3339,7.182689427972447,0.004791853848457622,5.0,8.0,35,True,False,morning_commute,Queens,Jackson Heights,Boro Zone
+130,3339,7.058101227912549,0.02336028751123091,5.0,8.0,32,True,False,daytime,Queens,Jamaica,Boro Zone
+131,3339,0.9700509134471399,0.4722970949386044,0.0,1.0,10,False,False,near_empty,Queens,Jamaica Estates,Boro Zone
+132,3339,211.0793650793651,0.0005989817310572028,127.0,284.0,528,True,False,daytime,Queens,JFK Airport,Airports
+134,3339,1.9613656783468105,0.23959269242288112,1.0,2.0,12,True,False,daytime,Queens,Kew Gardens,Boro Zone
+135,3339,0.7717879604672058,0.5268044324648098,0.0,1.0,9,False,False,near_empty,Queens,Kew Gardens Hills,Boro Zone
+137,3339,63.97873614854747,0.0,44.0,79.0,185,True,False,daytime,Manhattan,Kips Bay,Yellow Zone
+138,3339,140.68104222821205,0.0667864630128781,70.0,201.0,402,True,False,daytime,Queens,LaGuardia Airport,Airports
+139,3339,0.7469302186283319,0.5729260257562144,0.0,1.0,11,False,False,near_empty,Queens,Laurelton,Boro Zone
+140,3339,107.75561545372867,0.0002994908655286014,48.0,153.33333333333303,299,True,False,daytime,Manhattan,Lenox Hill East,Yellow Zone
+141,3339,121.40700808625337,0.0,71.0,169.0,301,True,False,daytime,Manhattan,Lenox Hill West,Yellow Zone
+142,3339,165.02186283318358,0.0017969451931716084,99.0,217.0,473,True,False,daytime,Manhattan,Lincoln Square East,Yellow Zone
+143,3339,64.98143156633722,0.005390835579514825,34.666666666666515,92.0,183,True,False,daytime,Manhattan,Lincoln Square West,Yellow Zone
+144,3339,61.74932614555256,0.006588799041629231,29.0,78.0,236,True,False,nightlife,Manhattan,Little Italy/NoLiTa,Yellow Zone
+145,3339,12.232704402515724,0.007487271638215035,8.0,14.0,66,True,False,daytime,Queens,Long Island City/Hunters Point,Boro Zone
+146,3339,5.673554956573825,0.03923330338424678,4.0,6.0,36,True,False,morning_commute,Queens,Long Island City/Queens Plaza,Boro Zone
+148,3339,69.16561844863732,0.0,30.0,60.0,344,True,False,nightlife,Manhattan,Lower East Side,Yellow Zone
+151,3339,44.25366876310272,0.010482180293501049,25.0,63.0,119,True,False,daytime,Manhattan,Manhattan Valley,Yellow Zone
+152,3339,7.661275831087152,0.05001497454327643,5.0,9.0,35,True,False,daytime,Manhattan,Manhattanville,Boro Zone
+153,3339,0.3018867924528302,0.7637017070979335,0.0,0.0,6,False,True,near_empty,Manhattan,Marble Hill,Boro Zone
+157,3339,2.5088349805330936,0.31716082659478884,1.0,2.0,45,True,False,nightlife,Queens,Maspeth,Boro Zone
+158,3339,53.68044324648098,0.008984725965858042,32.0,61.33333333333303,218,True,False,nightlife,Manhattan,Meatpacking/West Village West,Yellow Zone
+160,3339,0.9715483677747828,0.44264749925127284,0.0,1.0,10,False,False,near_empty,Queens,Middle Village,Boro Zone
+161,3339,228.0,0.0,97.0,300.0,672,True,False,daytime,Manhattan,Midtown Center,Yellow Zone
+162,3339,169.12728361784966,0.0,87.0,219.0,494,True,False,daytime,Manhattan,Midtown East,Yellow Zone
+163,3339,138.49356094639114,0.0005989817310572028,70.0,190.0,399,True,False,daytime,Manhattan,Midtown North,Yellow Zone
+164,3339,114.80712788259959,0.0,76.0,145.0,309,True,False,daytime,Manhattan,Midtown South,Yellow Zone
+166,3339,36.339622641509436,0.006888289907157832,21.0,47.0,116,True,False,daytime,Manhattan,Morningside Heights,Boro Zone
+170,3339,143.13327343516022,0.0005989817310572028,81.0,195.0,372,True,False,daytime,Manhattan,Murray Hill,Yellow Zone
+171,3339,0.4642108415693321,0.654387541179994,0.0,1.0,8,False,False,near_empty,Queens,Murray Hill-Queens,Boro Zone
+173,3339,0.8427672955974843,0.4857741838873914,0.0,1.0,13,False,False,near_empty,Queens,North Corona,Boro Zone
+175,3339,0.2770290506139563,0.7819706498951782,0.0,0.0,6,False,True,near_empty,Queens,Oakland Gardens,Boro Zone
+179,3339,4.755016471997604,0.05929919137466307,3.0,6.0,29,True,False,morning_commute,Queens,Old Astoria,Boro Zone
+180,3339,0.6516921233902366,0.5618448637316562,0.0,1.0,8,False,False,near_empty,Queens,Ozone Park,Boro Zone
+186,3339,172.13896376160528,0.0,123.0,230.0,400,True,False,daytime,Manhattan,Penn Station/Madison Sq West,Yellow Zone
+191,3339,1.440251572327044,0.37855645402815213,0.0,2.0,19,True,False,morning_commute,Queens,Queens Village,Boro Zone
+192,3339,0.3671758011380653,0.7097933513027853,0.0,0.0,7,False,True,near_empty,Queens,Queensboro Hill,Boro Zone
+193,3339,4.494159928122192,0.10601976639712489,2.0,6.0,26,True,False,morning_commute,Queens,Queensbridge/Ravenswood,Boro Zone
+194,3339,0.2671458520515124,0.7969451931716083,0.0,0.0,10,False,True,near_empty,Manhattan,Randalls Island,Yellow Zone
+196,3339,1.5504642108415694,0.31476489967056004,1.0,2.0,11,True,False,morning_commute,Queens,Rego Park,Boro Zone
+197,3339,3.298292902066487,0.11560347409404013,2.0,4.0,20,True,False,morning_commute,Queens,Richmond Hill,Boro Zone
+198,3339,2.597184785864031,0.20125786163522014,1.0,3.0,28,True,False,nightlife,Queens,Ridgewood,Boro Zone
+201,3339,0.3743635819107517,0.7172806229410003,0.0,0.0,7,False,True,near_empty,Queens,Rockaway Park,Boro Zone
+202,3339,0.9553758610362384,0.4306678646301288,0.0,1.0,9,False,False,near_empty,Manhattan,Roosevelt Island,Boro Zone
+203,3339,0.6810422282120395,0.577717879604672,0.0,1.0,8,False,False,near_empty,Queens,Rosedale,Boro Zone
+205,3339,1.9463911350703804,0.3021862833183588,1.0,2.0,16,True,False,morning_commute,Queens,Saint Albans,Boro Zone
+207,3339,0.42078466606768494,0.7187780772686433,0.0,0.0,10,False,True,near_empty,Queens,Saint Michaels Cemetery/Woodside,Boro Zone
+209,3339,12.711290805630428,0.044324648098233006,6.0,14.0,68,True,False,nightlife,Manhattan,Seaport,Yellow Zone
+211,3339,46.55855046421084,0.01766996106618748,22.0,62.0,157,True,False,daytime,Manhattan,SoHo,Yellow Zone
+215,3339,1.983528002395927,0.24678047319556753,1.0,2.0,16,True,False,morning_commute,Queens,South Jamaica,Boro Zone
+216,3339,4.37885594489368,0.0664869721473495,3.0,5.0,24,True,False,morning_commute,Queens,South Ozone Park,Boro Zone
+218,3339,1.3701707097933513,0.3830488170110812,0.0,2.0,13,True,False,morning_commute,Queens,Springfield Gardens North,Boro Zone
+219,3339,1.3285414794848758,0.31536388140161725,1.0,2.0,11,True,False,morning_commute,Queens,Springfield Gardens South,Boro Zone
+223,3339,4.492362982929021,0.0661874812818209,3.0,5.0,29,True,False,daytime,Queens,Steinway,Boro Zone
+224,3339,13.303683737646002,0.02395926924228811,9.0,16.0,54,True,False,daytime,Manhattan,Stuy Town/Peter Cooper Village,Yellow Zone
+226,3339,10.19077568134172,0.012279125486672657,7.0,12.0,50,True,False,morning_commute,Queens,Sunnyside,Boro Zone
+229,3339,88.08565438754118,0.0011979634621144056,60.0,118.0,226,True,False,daytime,Manhattan,Sutton Place/Turtle Bay North,Yellow Zone
+230,3339,162.04043126684635,0.0017969451931716084,103.0,199.0,465,True,False,daytime,Manhattan,Times Sq/Theatre District,Yellow Zone
+231,3339,78.30518119197365,0.001497454327643007,49.0,95.0,251,True,False,daytime,Manhattan,TriBeCa/Civic Center,Yellow Zone
+232,3339,17.017969451931716,0.008984725965858042,12.0,20.0,68,True,False,daytime,Manhattan,Two Bridges/Seward Park,Yellow Zone
+233,3339,58.42497753818508,0.004492362982929021,34.0,79.0,177,True,False,daytime,Manhattan,UN/Turtle Bay South,Yellow Zone
+234,3339,146.33842467804732,0.0002994908655286014,81.0,188.33333333333303,421,True,False,daytime,Manhattan,Union Sq,Yellow Zone
+236,3339,225.26774483378256,0.0020964360587002098,86.0,343.0,596,True,False,daytime,Manhattan,Upper East Side North,Yellow Zone
+237,3339,251.8439652590596,0.0017969451931716084,99.0,369.0,633,True,False,daytime,Manhattan,Upper East Side South,Yellow Zone
+238,3339,104.32973944294699,0.002994908655286014,57.0,150.0,275,True,False,daytime,Manhattan,Upper West Side North,Yellow Zone
+239,3339,142.65259059598682,0.002395926924228811,80.66666666666652,202.0,346,True,False,daytime,Manhattan,Upper West Side South,Yellow Zone
+243,3339,6.533393231506439,0.052710392333033845,4.0,8.0,32,True,False,morning_commute,Manhattan,Washington Heights North,Boro Zone
+244,3339,15.103324348607368,0.011680143755615454,10.0,19.0,55,True,False,morning_commute,Manhattan,Washington Heights South,Boro Zone
+246,3339,101.64660077867624,0.0032943995208146153,52.0,128.0,336,True,False,daytime,Manhattan,West Chelsea/Hudson Yards,Yellow Zone
+249,3339,118.54177897574124,0.0,68.0,115.0,445,True,False,nightlife,Manhattan,West Village,Yellow Zone
+252,3339,0.3704702006588799,0.7082958969751423,0.0,0.0,6,False,True,near_empty,Queens,Whitestone,Boro Zone
+253,3339,0.026355196166516923,0.9754417490266547,0.0,0.0,3,False,True,near_empty,Queens,Willets Point,Boro Zone
+258,3339,1.4126984126984128,0.3701707097933513,0.0,2.0,16,True,False,morning_commute,Queens,Woodhaven,Boro Zone
+260,3339,4.283018867924528,0.03893381251871818,3.0,5.0,25,True,False,morning_commute,Queens,Woodside,Boro Zone
+261,3339,27.674153938304883,0.030548068283917342,12.0,39.0,90,True,False,daytime,Manhattan,World Trade Center,Yellow Zone
+262,3339,77.71907756813417,0.009883198562443846,34.0,110.0,212,True,False,morning_commute,Manhattan,Yorkville East,Yellow Zone
+263,3339,101.76519916142557,0.0005989817310572028,76.0,136.0,256,True,False,daytime,Manhattan,Yorkville West,Yellow Zone

@@ -1,0 +1,42 @@
+check,passed,detail
+features.csv starts one week after the study start,True,2025-09-08 00:00:00
+trip_count_lag_168h is exact wherever it can be tested,True,"553,104 zone-hours compared"
+First week recovered for every zone and hour,True,"23,184 zone-hours"
+Recovered 7 Sep agrees with trip_count_lag_24h and trip_count_lag_1h,True,"3,312 + 138 values compared"
+"Grid is 138 zones x 4,344 hours with no missing counts",True,"599,472 rows, 4,344 hours"
+Hourly index is regular (no gaps or repeats),True,every step within each zone is exactly 1 hour
+Total demand equals the clean trips in cleaning_report.md,True,"22,579,793 trips"
+Weather equals the weather columns of features.csv,True,"576,288 zone-hours compared"
+DST adjustment only touches the merged hour,True,adjusted hour: 2025-11-02 01:00:00
+Week index starts on a Monday,True,2025-09-01 is a Monday
+8 federal holidays in the window,True,"Labor Day, Columbus Day, Veterans Day, Thanksgiving Day, Christmas Day, New Year's Day, Martin Luther King Jr. Day, Washington's Birthday"
+Holiday flag matches features.csv,True,"4,176 hours compared"
+Test period ends at the end of the data,True,2026-01-25 04:00:00 -> 2026-02-28 23:00:00
+Test hours match the ML models,True,836 hours
+CV folds stay before the test period,True,6 folds
+city series add up to all clean trips,True,"1 series, 22,579,793 trips"
+borough series add up to all clean trips,True,"2 series, 22,579,793 trips"
+service_area series add up to all clean trips,True,"3 series, 22,579,793 trips"
+Daily totals equal hourly totals,True,181 days x 6 series
+Zone daily covers 138 zones x 181 days,True,"24,978 rows"
+Zone profiles use training hours only,True,last hour used: 2026-01-11 03:00:00
+Every zone has a profile and a weather cell,True,50 weather cells
+Strongest seasonal autocorrelation is at the weekly lag,True,"ACF(24)=0.878, ACF(168)=0.891"
+Every column has a role in the feature catalogue,True,"65 distinct columns; missing [], unused []"
+Known-in-advance regressors carry no demand information,True,28 hourly / 16 daily regressors identical across all 6 series at every timestamp
+Known-in-advance regressors stay inside their training range,True,none outside
+Known-in-advance regressors are not exactly collinear,True,27 numeric regressors + intercept: rank 28 of 28
+Fourier terms are not collinear,True,"rank 13 of 13, condition number 1.4"
+No missing values in ts_calendar_hourly.csv,True,"4,344 rows x 44 columns"
+No missing values in ts_aggregate_hourly.csv,True,"26,064 rows x 54 columns"
+No missing values in ts_aggregate_daily.csv,True,"1,086 rows x 42 columns"
+No missing values in ts_zone_hourly.csv,True,"599,472 rows x 8 columns"
+No missing values in ts_zone_daily.csv,True,"24,978 rows x 14 columns"
+Zone weather matches the source table,True,"599,472 rows"
+ts_calendar_hourly.csv reads back with no missing values,True,"4,344 rows re-read"
+ts_aggregate_hourly.csv reads back with no missing values,True,"26,064 rows re-read"
+ts_aggregate_daily.csv reads back with no missing values,True,"1,086 rows re-read"
+ts_zone_hourly.csv reads back with no missing values,True,"599,472 rows re-read"
+ts_zone_daily.csv reads back with no missing values,True,"24,978 rows re-read"
+ts_cv_folds.csv reads back with no missing values,True,6 rows re-read
+ts_zone_profile.csv: only adi/cv2 of zero-demand zones are empty,True,"undefined for zones [103, 104]"

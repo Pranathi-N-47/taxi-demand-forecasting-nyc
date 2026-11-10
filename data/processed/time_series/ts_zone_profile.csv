@@ -1,0 +1,139 @@
+PULocationID,Borough,Zone,service_zone,latitude,longitude,train_hours,train_total_trips,train_mean,train_median,train_std,train_p95,train_max,train_zero_share,adi,cv2,volume_tier,demand_pattern,suggested_approach,weather_cell_id
+2,Queens,Jamaica Bay,Boro Zone,40.61675,-73.8313,3172.0,24.0,0.0076,0.0,0.0902,0.0,2.0,0.9927,137.913,0.0382,Sparse,intermittent,intermittent-demand method or pool to aggregate,cell_04
+4,Manhattan,Alphabet City,Yellow Zone,40.72375,-73.97697,3172.0,65233.5,20.5654,16.0,19.4226,59.0,147.0,0.0038,1.0038,0.8848,Medium,erratic,individual series model,cell_26
+7,Queens,Astoria,Boro Zone,40.76149,-73.91969,3172.0,40358.5,12.7234,11.0,7.9931,26.0,87.0,0.0044,1.0044,0.3885,Medium,smooth,individual series model,cell_31
+8,Queens,Astoria Park,Boro Zone,40.77856,-73.92309,3172.0,245.0,0.0772,0.0,0.2852,1.0,3.0,0.9272,13.7316,0.066,Sparse,intermittent,intermittent-demand method or pool to aggregate,cell_41
+9,Queens,Auburndale,Boro Zone,40.75103,-73.78795,3172.0,749.0,0.2361,0.0,0.5285,1.0,4.0,0.8033,5.0833,0.1824,Sparse,intermittent,intermittent-demand method or pool to aggregate,cell_32
+10,Queens,Baisley Park,Boro Zone,40.67895,-73.79099,3172.0,8177.5,2.578,2.0,2.2515,7.0,24.0,0.1743,1.2111,0.4554,Low,smooth,individual series model,cell_08
+12,Manhattan,Battery Park,Yellow Zone,40.70295,-74.01556,3172.0,5063.5,1.5963,1.0,2.4216,7.0,18.0,0.4896,1.9592,0.6849,Low,lumpy,intermittent-demand method or pool to aggregate,cell_21
+13,Manhattan,Battery Park City,Yellow Zone,40.71204,-74.01608,3172.0,110417.0,34.8099,32.0,29.4384,92.0,138.0,0.0441,1.0462,0.6395,Medium,erratic,individual series model,cell_21
+15,Queens,Bay Terrace/Fort Totten,Boro Zone,40.78333,-73.78597,3172.0,750.5,0.2366,0.0,0.5329,1.0,4.0,0.8067,5.1746,0.1735,Sparse,intermittent,intermittent-demand method or pool to aggregate,cell_40
+16,Queens,Bayside,Boro Zone,40.76274,-73.77342,3172.0,1436.5,0.4529,0.0,0.7804,2.0,8.0,0.6702,3.0325,0.3089,Sparse,intermittent,intermittent-demand method or pool to aggregate,cell_32
+19,Queens,Bellerose,Boro Zone,40.73549,-73.72666,3172.0,1785.5,0.5629,0.0,0.837,2.0,6.0,0.6034,2.5215,0.2735,Sparse,intermittent,intermittent-demand method or pool to aggregate,cell_27
+24,Manhattan,Bloomingdale,Yellow Zone,40.80197,-73.96548,3172.0,52627.5,16.5913,17.0,10.3145,34.0,52.0,0.0151,1.0154,0.3655,Medium,smooth,individual series model,cell_43
+27,Queens,Breezy Point/Fort Tilden/Riis Beach,Boro Zone,40.55913,-73.90691,3172.0,69.0,0.0218,0.0,0.1501,0.0,2.0,0.9789,47.3433,0.0273,Sparse,intermittent,intermittent-demand method or pool to aggregate,cell_01
+28,Queens,Briarwood/Jamaica Hills,Boro Zone,40.7116,-73.80873,3172.0,4919.0,1.5508,1.0,1.5577,5.0,12.0,0.2828,1.3943,0.4409,Low,intermittent,intermittent-demand method or pool to aggregate,cell_16
+30,Queens,Broad Channel,Boro Zone,40.60369,-73.82193,3172.0,59.0,0.0186,0.0,0.1374,0.0,2.0,0.9817,54.6897,0.0164,Sparse,intermittent,intermittent-demand method or pool to aggregate,cell_02
+38,Queens,Cambria Heights,Boro Zone,40.69434,-73.73555,3172.0,1872.5,0.5903,0.0,0.958,2.0,8.0,0.6195,2.628,0.3826,Sparse,intermittent,intermittent-demand method or pool to aggregate,cell_12
+41,Manhattan,Central Harlem,Boro Zone,40.80433,-73.95129,3172.0,89302.5,28.1534,27.0,17.2927,60.0,129.0,0.0044,1.0044,0.3712,Medium,smooth,individual series model,cell_46
+42,Manhattan,Central Harlem North,Boro Zone,40.81826,-73.94077,3172.0,63809.0,20.1163,18.0,12.5445,44.0,79.0,0.0035,1.0035,0.3841,Medium,smooth,individual series model,cell_46
+43,Manhattan,Central Park,Yellow Zone,40.78248,-73.96556,3172.0,237428.0,74.8512,67.0,64.1526,186.0,271.0,0.046,1.0482,0.6547,High,erratic,individual series model,cell_43
+45,Manhattan,Chinatown,Yellow Zone,40.71246,-73.99815,3172.0,41085.0,12.9524,12.0,8.9657,29.0,46.0,0.0369,1.0383,0.4246,Medium,smooth,individual series model,cell_18
+48,Manhattan,Clinton East,Yellow Zone,40.76225,-73.98984,3172.0,406764.0,128.2358,122.0,68.7381,264.45,391.0,0.0,1.0,0.2873,High,smooth,individual series model,cell_35
+50,Manhattan,Clinton West,Yellow Zone,40.76624,-73.99514,3172.0,127254.0,40.1179,41.0,24.8079,82.0,171.0,0.0019,1.0019,0.3798,Medium,smooth,individual series model,cell_37
+53,Queens,College Point,Boro Zone,40.78091,-73.84281,3172.0,1468.0,0.4628,0.0,0.7605,2.0,8.0,0.657,2.9154,0.2692,Sparse,intermittent,intermittent-demand method or pool to aggregate,cell_44
+56,Queens,Corona,Boro Zone,40.74141,-73.85885,3172.0,4843.0,1.5268,1.0,1.9684,5.0,27.0,0.331,1.4948,0.781,Low,lumpy,intermittent-demand method or pool to aggregate,cell_28
+57,Queens,Corona,Boro Zone,40.75182,-73.85358,3172.0,378.0,0.1192,0.0,0.4572,1.0,9.0,0.9054,10.5733,0.4865,Sparse,intermittent,intermittent-demand method or pool to aggregate,cell_28
+64,Queens,Douglaston,Boro Zone,40.76061,-73.73934,3172.0,650.5,0.2051,0.0,0.4955,1.0,5.0,0.8269,5.7778,0.1836,Sparse,intermittent,intermittent-demand method or pool to aggregate,cell_38
+68,Manhattan,East Chelsea,Yellow Zone,40.74843,-73.99992,3172.0,450161.0,141.9171,152.0,88.4588,289.0,421.0,0.0003,1.0003,0.3881,High,smooth,individual series model,cell_29
+70,Queens,East Elmhurst,Boro Zone,40.76335,-73.8684,3172.0,43129.0,13.5968,13.0,10.7031,32.0,62.0,0.1047,1.1169,0.4501,Medium,smooth,individual series model,cell_36
+73,Queens,East Flushing,Boro Zone,40.75411,-73.80729,3172.0,689.5,0.2174,0.0,0.507,1.0,4.0,0.8184,5.5069,0.1695,Sparse,intermittent,intermittent-demand method or pool to aggregate,cell_32
+74,Manhattan,East Harlem North,Boro Zone,40.80117,-73.93735,3172.0,125478.5,39.5582,40.0,25.7106,86.0,140.0,0.006,1.006,0.4139,Medium,smooth,individual series model,cell_45
+75,Manhattan,East Harlem South,Boro Zone,40.79001,-73.94575,3172.0,164685.0,51.9183,51.0,34.9807,113.0,188.0,0.0003,1.0003,0.4535,High,smooth,individual series model,cell_41
+79,Manhattan,East Village,Yellow Zone,40.72762,-73.98594,3172.0,452470.0,142.645,95.0,147.2651,453.8,984.0,0.0,1.0,1.0658,High,erratic,individual series model,cell_26
+82,Queens,Elmhurst,Boro Zone,40.7395,-73.87712,3172.0,18325.5,5.7773,5.0,4.0933,14.0,32.0,0.0271,1.0279,0.4613,Low,smooth,individual series model,cell_28
+83,Queens,Elmhurst/Maspeth,Boro Zone,40.73832,-73.89217,3172.0,5923.5,1.8674,1.0,1.6807,5.0,10.0,0.215,1.2739,0.4209,Low,smooth,individual series model,cell_31
+86,Queens,Far Rockaway,Boro Zone,40.60243,-73.75524,3172.0,4146.0,1.3071,1.0,1.576,4.0,13.0,0.4133,1.7045,0.4397,Low,intermittent,intermittent-demand method or pool to aggregate,cell_03
+87,Manhattan,Financial District North,Yellow Zone,40.70681,-74.0075,3172.0,132282.5,41.7032,34.0,34.0528,113.0,191.0,0.0066,1.0067,0.6557,Medium,erratic,individual series model,cell_18
+88,Manhattan,Financial District South,Yellow Zone,40.70336,-74.01152,3172.0,68020.5,21.444,18.0,17.1525,53.0,91.0,0.0426,1.0445,0.57,Medium,erratic,individual series model,cell_18
+90,Manhattan,Flatiron,Yellow Zone,40.74228,-73.99697,3172.0,265103.5,83.5761,82.0,53.9611,183.0,322.0,0.0,1.0,0.4169,High,smooth,individual series model,cell_26
+92,Queens,Flushing,Boro Zone,40.7611,-73.82886,3172.0,7289.0,2.2979,2.0,2.1553,6.0,24.0,0.1778,1.2163,0.5455,Low,erratic,individual series model,cell_34
+93,Queens,Flushing Meadows-Corona Park,Boro Zone,40.74067,-73.84087,3172.0,9090.5,2.8659,0.0,17.8695,4.0,292.0,0.5186,2.0773,18.1978,Low,lumpy,intermittent-demand method or pool to aggregate,cell_25
+95,Queens,Forest Hills,Boro Zone,40.72143,-73.84767,3172.0,20067.5,6.3265,6.0,5.5194,14.0,95.0,0.0577,1.0612,0.6595,Low,erratic,individual series model,cell_17
+96,Queens,Forest Park/Highland Park,Boro Zone,40.697,-73.87156,3172.0,306.0,0.0965,0.0,0.3276,1.0,3.0,0.9127,11.4513,0.0946,Sparse,intermittent,intermittent-demand method or pool to aggregate,cell_13
+98,Queens,Fresh Meadows,Boro Zone,40.73446,-73.77725,3172.0,1077.5,0.3397,0.0,0.6286,2.0,4.0,0.7301,3.7056,0.1939,Sparse,intermittent,intermittent-demand method or pool to aggregate,cell_22
+100,Manhattan,Garment District,Yellow Zone,40.75351,-73.98879,3172.0,234650.5,73.9756,78.0,39.0949,137.0,208.0,0.0,1.0,0.2793,High,smooth,individual series model,cell_35
+101,Queens,Glen Oaks,Boro Zone,40.74599,-73.71103,3172.0,1229.0,0.3875,0.0,0.7497,2.0,11.0,0.7078,3.4218,0.3864,Sparse,intermittent,intermittent-demand method or pool to aggregate,cell_27
+102,Queens,Glendale,Boro Zone,40.70355,-73.87574,3172.0,2630.5,0.8293,1.0,1.0842,3.0,9.0,0.494,1.9763,0.3709,Sparse,intermittent,intermittent-demand method or pool to aggregate,cell_20
+103,Manhattan,Governor's Island/Ellis Island/Liberty Island,Yellow Zone,40.68986,-74.04529,3172.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,,,Zero,no demand,aggregate level only,cell_15
+104,Manhattan,Governor's Island/Ellis Island/Liberty Island,Yellow Zone,40.69877,-74.04077,3172.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,,,Zero,no demand,aggregate level only,cell_21
+105,Manhattan,Governor's Island/Ellis Island/Liberty Island,Yellow Zone,40.68878,-74.01907,3172.0,6.0,0.0019,0.0,0.0435,0.0,1.0,0.9981,528.6667,0.0,Sparse,intermittent,intermittent-demand method or pool to aggregate,cell_11
+107,Manhattan,Gramercy,Yellow Zone,40.73682,-73.98405,3172.0,341668.0,107.7137,107.0,70.0499,240.0,406.0,0.0003,1.0003,0.4225,High,smooth,individual series model,cell_26
+113,Manhattan,Greenwich Village North,Yellow Zone,40.73258,-73.9943,3172.0,248610.5,78.3766,78.0,52.2597,173.0,240.0,0.0028,1.0028,0.4405,High,smooth,individual series model,cell_26
+114,Manhattan,Greenwich Village South,Yellow Zone,40.72834,-73.99738,3172.0,255822.0,80.6501,55.0,84.4716,253.45,524.0,0.0016,1.0016,1.0937,High,erratic,individual series model,cell_26
+116,Manhattan,Hamilton Heights,Boro Zone,40.82701,-73.94852,3172.0,39143.0,12.3402,11.0,8.6906,30.0,61.0,0.0104,1.0105,0.4804,Medium,smooth,individual series model,cell_47
+117,Queens,Hammels/Arverne,Boro Zone,40.59406,-73.78962,3172.0,4037.0,1.2727,1.0,1.667,5.0,15.0,0.4316,1.7593,0.5436,Low,lumpy,intermittent-demand method or pool to aggregate,cell_02
+120,Manhattan,Highbridge Park,Boro Zone,40.84667,-73.93018,3172.0,418.0,0.1318,0.0,0.366,1.0,2.0,0.878,8.1964,0.0632,Sparse,intermittent,intermittent-demand method or pool to aggregate,cell_47
+121,Queens,Hillcrest/Pomonok,Boro Zone,40.72833,-73.80244,3172.0,3251.0,1.0249,1.0,1.2775,3.0,11.0,0.4388,1.782,0.4331,Low,intermittent,intermittent-demand method or pool to aggregate,cell_24
+122,Queens,Hollis,Boro Zone,40.71064,-73.76114,3172.0,2032.0,0.6406,0.0,1.0185,3.0,7.0,0.6122,2.5789,0.3679,Sparse,intermittent,intermittent-demand method or pool to aggregate,cell_22
+124,Queens,Howard Beach,Boro Zone,40.65825,-73.84492,3172.0,2405.0,0.7582,0.0,1.0015,3.0,7.0,0.5164,2.0678,0.3274,Sparse,intermittent,intermittent-demand method or pool to aggregate,cell_06
+125,Manhattan,Hudson Sq,Yellow Zone,40.72629,-74.00749,3172.0,85849.0,27.0646,27.0,18.0075,60.0,85.0,0.0154,1.0157,0.4204,Medium,smooth,individual series model,cell_21
+127,Manhattan,Inwood,Boro Zone,40.86607,-73.91931,3172.0,9237.5,2.9122,2.0,2.5212,8.0,22.0,0.1479,1.1735,0.4908,Low,erratic,individual series model,cell_48
+128,Manhattan,Inwood Hill Park,Boro Zone,40.87238,-73.92437,3172.0,820.0,0.2585,0.0,0.5693,1.0,9.0,0.7897,4.7556,0.23,Sparse,intermittent,intermittent-demand method or pool to aggregate,cell_49
+129,Queens,Jackson Heights,Boro Zone,40.75731,-73.88532,3172.0,23074.0,7.2743,7.0,4.1713,14.45,45.0,0.0044,1.0044,0.323,Low,smooth,individual series model,cell_31
+130,Queens,Jamaica,Boro Zone,40.70437,-73.79398,3172.0,22651.0,7.1409,6.0,4.552,15.0,54.0,0.024,1.0245,0.3727,Low,smooth,individual series model,cell_16
+131,Queens,Jamaica Estates,Boro Zone,40.72066,-73.7761,3172.0,3106.0,0.9792,1.0,1.2576,3.0,9.0,0.4685,1.8814,0.4083,Sparse,intermittent,intermittent-demand method or pool to aggregate,cell_22
+132,Queens,JFK Airport,Airports,40.64699,-73.78653,3172.0,687321.5,216.684,192.0,141.0516,451.0,672.0,0.0006,1.0006,0.4228,High,smooth,individual series model,cell_05
+134,Queens,Kew Gardens,Boro Zone,40.70805,-73.82871,3172.0,6260.5,1.9737,2.0,1.8226,5.0,11.0,0.2346,1.3064,0.4182,Low,smooth,individual series model,cell_17
+135,Queens,Kew Gardens Hills,Boro Zone,40.72838,-73.82119,3172.0,2509.0,0.791,0.0,1.0686,3.0,9.0,0.518,2.0746,0.3619,Sparse,intermittent,intermittent-demand method or pool to aggregate,cell_24
+137,Manhattan,Kips Bay,Yellow Zone,40.74044,-73.97649,3172.0,201253.0,63.4467,64.0,38.087,131.0,224.0,0.0,1.0,0.3604,High,smooth,individual series model,cell_26
+138,Queens,LaGuardia Airport,Airports,40.77438,-73.87363,3172.0,455453.0,143.5854,153.0,110.3819,318.0,599.0,0.0672,1.072,0.4841,High,smooth,individual series model,cell_36
+139,Queens,Laurelton,Boro Zone,40.6771,-73.74423,3172.0,2342.0,0.7383,0.0,1.1326,3.0,11.0,0.5703,2.3272,0.4408,Sparse,intermittent,intermittent-demand method or pool to aggregate,cell_12
+140,Manhattan,Lenox Hill East,Yellow Zone,40.76548,-73.95474,3172.0,337797.5,106.4935,98.0,81.1159,243.0,323.0,0.0003,1.0003,0.5797,High,erratic,individual series model,cell_33
+141,Manhattan,Lenox Hill West,Yellow Zone,40.76695,-73.95964,3172.0,383274.0,120.8304,144.0,76.9265,232.0,433.0,0.0,1.0,0.4053,High,smooth,individual series model,cell_35
+142,Manhattan,Lincoln Square East,Yellow Zone,40.77363,-73.98153,3172.0,519393.5,163.7432,179.0,120.2947,365.45,745.0,0.0019,1.0019,0.5368,High,erratic,individual series model,cell_35
+143,Manhattan,Lincoln Square West,Yellow Zone,40.77597,-73.98765,3172.0,205432.5,64.7643,68.0,46.4046,140.0,199.0,0.005,1.0051,0.5058,High,erratic,individual series model,cell_35
+144,Manhattan,Little Italy/NoLiTa,Yellow Zone,40.72089,-73.99692,3172.0,198107.5,62.4551,52.0,51.6112,157.45,288.0,0.0066,1.0067,0.6718,High,erratic,individual series model,cell_18
+145,Queens,Long Island City/Hunters Point,Boro Zone,40.74538,-73.94889,3172.0,39316.0,12.3947,11.0,8.6369,27.0,100.0,0.0082,1.0083,0.4734,Medium,smooth,individual series model,cell_33
+146,Queens,Long Island City/Queens Plaza,Boro Zone,40.75424,-73.93483,3172.0,18166.5,5.7271,5.0,4.3314,13.0,63.0,0.0385,1.04,0.5115,Low,erratic,individual series model,cell_33
+148,Manhattan,Lower East Side,Yellow Zone,40.71894,-73.9909,3172.0,221153.5,69.7205,42.0,84.9472,257.35,545.0,0.0,1.0,1.4845,High,erratic,individual series model,cell_18
+151,Manhattan,Manhattan Valley,Yellow Zone,40.79796,-73.96817,3172.0,139664.5,44.0304,47.0,29.7345,89.0,144.0,0.0107,1.0108,0.4404,Medium,smooth,individual series model,cell_43
+152,Manhattan,Manhattanville,Boro Zone,40.81798,-73.95378,3172.0,24500.5,7.724,7.0,5.4701,18.0,40.0,0.0489,1.0514,0.4282,Low,smooth,individual series model,cell_46
+153,Manhattan,Marble Hill,Boro Zone,40.87597,-73.91038,3172.0,935.0,0.2948,0.0,0.6041,1.0,5.0,0.7661,4.2749,0.2163,Sparse,intermittent,intermittent-demand method or pool to aggregate,cell_50
+157,Queens,Maspeth,Boro Zone,40.72399,-73.90233,3172.0,8382.5,2.6427,1.0,5.4051,12.0,61.0,0.3112,1.4517,2.5705,Low,lumpy,intermittent-demand method or pool to aggregate,cell_23
+158,Manhattan,Meatpacking/West Village West,Yellow Zone,40.73504,-74.00898,3172.0,172674.5,54.4371,46.0,44.8308,142.45,277.0,0.0088,1.0089,0.6634,High,erratic,individual series model,cell_29
+160,Queens,Middle Village,Boro Zone,40.71834,-73.88005,3172.0,3135.5,0.9885,1.0,1.2034,3.0,9.0,0.4344,1.7681,0.4038,Sparse,intermittent,intermittent-demand method or pool to aggregate,cell_20
+161,Manhattan,Midtown Center,Yellow Zone,40.75803,-73.9777,3172.0,724128.5,228.2877,212.0,189.1974,606.9,844.0,0.0,1.0,0.6869,High,erratic,individual series model,cell_35
+162,Manhattan,Midtown East,Yellow Zone,40.75669,-73.97236,3172.0,538776.5,169.8539,174.0,126.227,413.45,582.0,0.0,1.0,0.5523,High,erratic,individual series model,cell_35
+163,Manhattan,Midtown North,Yellow Zone,40.76442,-73.97757,3172.0,441619.5,139.2243,140.0,101.918,320.0,460.0,0.0,1.0,0.5359,High,erratic,individual series model,cell_35
+164,Manhattan,Midtown South,Yellow Zone,40.74857,-73.98516,3172.0,368519.0,116.1788,117.0,74.3447,248.0,337.0,0.0,1.0,0.4095,High,smooth,individual series model,cell_26
+166,Manhattan,Morningside Heights,Boro Zone,40.80946,-73.96176,3172.0,116173.5,36.6247,37.0,24.8963,80.45,152.0,0.0069,1.007,0.4519,Medium,smooth,individual series model,cell_46
+170,Manhattan,Murray Hill,Yellow Zone,40.74775,-73.97849,3172.0,456681.0,143.9726,158.0,95.725,302.0,435.0,0.0006,1.0006,0.4412,High,smooth,individual series model,cell_26
+171,Queens,Murray Hill-Queens,Boro Zone,40.76835,-73.80955,3172.0,1499.0,0.4726,0.0,0.7618,2.0,8.0,0.6516,2.8706,0.2535,Sparse,intermittent,intermittent-demand method or pool to aggregate,cell_34
+173,Queens,North Corona,Boro Zone,40.75258,-73.86304,3172.0,2800.5,0.8829,1.0,1.2489,3.0,18.0,0.4789,1.9189,0.5639,Sparse,lumpy,intermittent-demand method or pool to aggregate,cell_28
+175,Queens,Oakland Gardens,Boro Zone,40.74267,-73.75462,3172.0,900.0,0.2837,0.0,0.6023,1.0,6.0,0.7784,4.5121,0.2203,Sparse,intermittent,intermittent-demand method or pool to aggregate,cell_30
+179,Queens,Old Astoria,Boro Zone,40.77157,-73.92833,3172.0,14994.5,4.7271,4.0,3.6756,11.0,38.0,0.0627,1.0669,0.5039,Low,erratic,individual series model,cell_41
+180,Queens,Ozone Park,Boro Zone,40.6756,-73.84704,3172.0,2049.5,0.6461,0.0,0.9216,2.0,7.0,0.5681,2.3153,0.3106,Sparse,intermittent,intermittent-demand method or pool to aggregate,cell_10
+186,Manhattan,Penn Station/Madison Sq West,Yellow Zone,40.7485,-73.99244,3172.0,551814.0,173.9641,195.0,102.4336,326.45,539.0,0.0,1.0,0.3467,High,smooth,individual series model,cell_26
+191,Queens,Queens Village,Boro Zone,40.71545,-73.74153,3172.0,4526.5,1.427,1.0,1.8417,5.0,25.0,0.3805,1.6142,0.6513,Low,lumpy,intermittent-demand method or pool to aggregate,cell_19
+192,Queens,Queensboro Hill,Boro Zone,40.74375,-73.81523,3172.0,1187.0,0.3742,0.0,0.6617,2.0,6.0,0.7052,3.3925,0.2164,Sparse,intermittent,intermittent-demand method or pool to aggregate,cell_24
+193,Queens,Queensbridge/Ravenswood,Boro Zone,40.76031,-73.942,3172.0,14335.0,4.5192,4.0,3.7025,12.0,27.0,0.105,1.1173,0.4958,Low,erratic,individual series model,cell_33
+194,Manhattan,Randalls Island,Yellow Zone,40.791,-73.9246,3172.0,868.0,0.2736,0.0,0.6725,1.0,10.0,0.7945,4.865,0.4469,Sparse,intermittent,intermittent-demand method or pool to aggregate,cell_41
+196,Queens,Rego Park,Boro Zone,40.72616,-73.86334,3172.0,4961.0,1.564,1.0,1.5703,5.0,10.0,0.3096,1.4484,0.3864,Low,intermittent,intermittent-demand method or pool to aggregate,cell_20
+197,Queens,Richmond Hill,Boro Zone,40.69454,-73.83092,3172.0,10617.5,3.3473,3.0,2.854,9.0,26.0,0.1132,1.1276,0.5315,Low,erratic,individual series model,cell_16
+198,Queens,Ridgewood,Boro Zone,40.70653,-73.90171,3172.0,8301.5,2.6171,2.0,2.9872,8.0,35.0,0.2011,1.2518,0.8396,Low,erratic,individual series model,cell_20
+201,Queens,Rockaway Park,Boro Zone,40.57798,-73.84345,3172.0,1162.0,0.3663,0.0,0.6873,2.0,6.0,0.721,3.5842,0.2611,Sparse,intermittent,intermittent-demand method or pool to aggregate,cell_02
+202,Manhattan,Roosevelt Island,Boro Zone,40.7619,-73.94995,3172.0,3018.0,0.9515,1.0,1.0929,3.0,8.0,0.4313,1.7583,0.3191,Sparse,intermittent,intermittent-demand method or pool to aggregate,cell_33
+203,Queens,Rosedale,Boro Zone,40.65785,-73.73947,3172.0,2155.5,0.6795,0.0,1.0166,3.0,7.0,0.5779,2.3689,0.367,Sparse,intermittent,intermittent-demand method or pool to aggregate,cell_07
+205,Queens,Saint Albans,Boro Zone,40.6912,-73.76315,3172.0,6162.0,1.9426,1.0,2.1661,6.0,16.0,0.2967,1.4218,0.5778,Low,lumpy,intermittent-demand method or pool to aggregate,cell_14
+207,Queens,Saint Michaels Cemetery/Woodside,Boro Zone,40.76399,-73.89935,3172.0,1331.0,0.4196,0.0,0.8363,2.0,9.0,0.7169,3.5323,0.4077,Sparse,intermittent,intermittent-demand method or pool to aggregate,cell_39
+209,Manhattan,Seaport,Yellow Zone,40.70907,-74.00366,3172.0,41287.0,13.0161,10.0,11.5278,36.45,73.0,0.0441,1.0462,0.7056,Medium,erratic,individual series model,cell_18
+211,Manhattan,SoHo,Yellow Zone,40.72389,-74.00154,3172.0,150078.5,47.3135,41.0,37.7186,117.0,183.0,0.0158,1.016,0.6098,Medium,erratic,individual series model,cell_18
+215,Queens,South Jamaica,Boro Zone,40.69443,-73.79096,3172.0,6304.5,1.9875,2.0,1.972,6.0,19.0,0.2421,1.3195,0.504,Low,erratic,individual series model,cell_14
+216,Queens,South Ozone Park,Boro Zone,40.67615,-73.81946,3172.0,14134.0,4.4559,4.0,3.2607,10.0,31.0,0.0646,1.0691,0.4363,Low,smooth,individual series model,cell_09
+218,Queens,Springfield Gardens North,Boro Zone,40.67209,-73.77304,3172.0,4325.0,1.3635,1.0,1.6219,5.0,12.0,0.3824,1.6192,0.4914,Low,lumpy,intermittent-demand method or pool to aggregate,cell_08
+219,Queens,Springfield Gardens South,Boro Zone,40.66219,-73.76451,3172.0,4242.0,1.3373,1.0,1.3338,4.0,10.0,0.3118,1.453,0.3728,Low,intermittent,intermittent-demand method or pool to aggregate,cell_07
+223,Queens,Steinway,Boro Zone,40.77743,-73.90541,3172.0,14231.0,4.4864,4.0,3.3338,10.0,33.0,0.0672,1.072,0.4479,Low,smooth,individual series model,cell_39
+224,Manhattan,Stuy Town/Peter Cooper Village,Yellow Zone,40.73182,-73.9766,3172.0,41863.5,13.1978,12.0,8.9039,29.0,74.0,0.0268,1.0275,0.4162,Medium,smooth,individual series model,cell_26
+226,Queens,Sunnyside,Boro Zone,40.7377,-73.92467,3172.0,32223.0,10.1586,9.0,5.9987,21.0,52.0,0.0117,1.0118,0.333,Medium,smooth,individual series model,cell_23
+229,Manhattan,Sutton Place/Turtle Bay North,Yellow Zone,40.75673,-73.96515,3172.0,279516.5,88.12,99.0,54.2351,171.0,252.0,0.0013,1.0013,0.3771,High,smooth,individual series model,cell_35
+230,Manhattan,Times Sq/Theatre District,Yellow Zone,40.75982,-73.9842,3172.0,514698.5,162.2631,165.0,109.2806,361.0,610.0,0.0019,1.0019,0.4508,High,smooth,individual series model,cell_35
+231,Manhattan,TriBeCa/Civic Center,Yellow Zone,40.71777,-74.00788,3172.0,250859.5,79.0856,76.0,56.793,188.0,305.0,0.0016,1.0016,0.5133,High,erratic,individual series model,cell_18
+232,Manhattan,Two Bridges/Seward Park,Yellow Zone,40.71473,-73.98302,3172.0,54240.0,17.0996,16.0,10.813,38.0,84.0,0.0079,1.0079,0.3888,Medium,smooth,individual series model,cell_18
+233,Manhattan,UN/Turtle Bay South,Yellow Zone,40.74991,-73.97044,3172.0,186275.5,58.7249,63.0,39.1737,124.0,207.0,0.0044,1.0044,0.4386,High,smooth,individual series model,cell_35
+234,Manhattan,Union Sq,Yellow Zone,40.74034,-73.99046,3172.0,465162.0,146.6463,137.0,108.1398,347.45,490.0,0.0003,1.0003,0.5433,High,erratic,individual series model,cell_26
+236,Manhattan,Upper East Side North,Yellow Zone,40.78044,-73.95701,3172.0,711501.0,224.3067,228.0,177.7367,502.45,751.0,0.0022,1.0022,0.6243,High,erratic,individual series model,cell_43
+237,Manhattan,Upper East Side South,Yellow Zone,40.76862,-73.96563,3172.0,801869.5,252.7962,261.0,192.298,553.45,727.0,0.0019,1.0019,0.5757,High,erratic,individual series model,cell_35
+238,Manhattan,Upper West Side North,Yellow Zone,40.7917,-73.97305,3172.0,328820.5,103.6635,112.0,71.6364,212.0,318.0,0.0028,1.0028,0.4734,High,smooth,individual series model,cell_43
+239,Manhattan,Upper West Side South,Yellow Zone,40.78396,-73.97863,3172.0,450552.0,142.0404,165.0,94.6717,281.0,489.0,0.0028,1.0028,0.4401,High,smooth,individual series model,cell_43
+243,Manhattan,Washington Heights North,Boro Zone,40.85711,-73.93283,3172.0,20765.5,6.5465,6.0,4.7573,16.0,32.0,0.0517,1.0545,0.4491,Low,smooth,individual series model,cell_49
+244,Manhattan,Washington Heights South,Boro Zone,40.84171,-73.9414,3172.0,47778.5,15.0626,15.0,9.2818,31.45,61.0,0.0113,1.0115,0.3641,Medium,smooth,individual series model,cell_47
+246,Manhattan,West Chelsea/Hudson Yards,Yellow Zone,40.75331,-74.00402,3172.0,324391.0,102.267,91.0,79.3592,257.0,469.0,0.0028,1.0028,0.5976,High,erratic,individual series model,cell_29
+249,Manhattan,West Village,Yellow Zone,40.73458,-74.00288,3172.0,377560.5,119.0292,87.0,109.3651,356.45,650.0,0.0,1.0,0.8442,High,erratic,individual series model,cell_26
+252,Queens,Whitestone,Boro Zone,40.78819,-73.81566,3172.0,1179.0,0.3717,0.0,0.6531,2.0,5.0,0.7081,3.4255,0.1931,Sparse,intermittent,intermittent-demand method or pool to aggregate,cell_42
+253,Queens,Willets Point,Boro Zone,40.76063,-73.84124,3172.0,121.0,0.0381,0.0,0.2304,0.0,4.0,0.9682,31.4059,0.1934,Sparse,intermittent,intermittent-demand method or pool to aggregate,cell_34
+258,Queens,Woodhaven,Boro Zone,40.68872,-73.85577,3172.0,4457.0,1.4051,1.0,1.7428,5.0,17.0,0.3682,1.5828,0.6037,Low,lumpy,intermittent-demand method or pool to aggregate,cell_10
+260,Queens,Woodside,Boro Zone,40.74423,-73.90631,3172.0,13775.0,4.3427,4.0,3.0234,10.0,34.0,0.0388,1.0403,0.4271,Low,smooth,individual series model,cell_31
+261,Manhattan,World Trade Center,Yellow Zone,40.70914,-74.01302,3172.0,89732.0,28.2888,25.0,21.9716,67.0,97.0,0.0296,1.0305,0.5557,Medium,erratic,individual series model,cell_21
+262,Manhattan,Yorkville East,Yellow Zone,40.77593,-73.94651,3172.0,244345.5,77.032,78.0,57.3884,172.0,237.0,0.0095,1.0095,0.5403,High,erratic,individual series model,cell_41
+263,Manhattan,Yorkville West,Yellow Zone,40.77877,-73.95101,3172.0,320770.0,101.1255,112.0,59.5385,187.0,402.0,0.0003,1.0003,0.3462,High,smooth,individual series model,cell_41

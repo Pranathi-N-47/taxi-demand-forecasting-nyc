@@ -1,0 +1,66 @@
+column,role,tables,description
+series_level,identifier,ts_aggregate_hourly.csv; ts_aggregate_daily.csv,"Aggregation level: city, borough or service_area"
+series_id,identifier,ts_aggregate_hourly.csv; ts_aggregate_daily.csv,"Series name: All zones, Manhattan, Queens, Yellow Zone, Boro Zone, Airports"
+PULocationID,identifier,ts_zone_hourly.csv; ts_zone_daily.csv,TLC pickup zone
+ds,identifier,ts_calendar_hourly.csv; ts_aggregate_hourly.csv; ts_zone_hourly.csv,"Start of the hour, naive local New York time"
+date,identifier,ts_calendar_hourly.csv; ts_aggregate_hourly.csv; ts_aggregate_daily.csv; ts_zone_daily.csv,Calendar day
+trip_count_adj,target,ts_aggregate_hourly.csv; ts_aggregate_daily.csv; ts_zone_hourly.csv; ts_zone_daily.csv,Pickups per physical hour (DST double hour halved); fit models on this
+trip_count,target_observed,ts_aggregate_hourly.csv; ts_aggregate_daily.csv; ts_zone_hourly.csv; ts_zone_daily.csv,"Observed pickups; equals trip_count_adj except the DST hour; for evaluation, never an input"
+log1p_trip_count_adj,target_transform,ts_aggregate_hourly.csv; ts_aggregate_daily.csv,"log(1 + trip_count_adj); variance-stabilised target, never an input"
+t,trend,ts_calendar_hourly.csv; ts_aggregate_hourly.csv,Hours since 2025-09-01 00:00
+day_index,trend,ts_calendar_hourly.csv; ts_aggregate_hourly.csv; ts_aggregate_daily.csv,Days since 2025-09-01
+week_index,trend,ts_calendar_hourly.csv; ts_aggregate_hourly.csv; ts_aggregate_daily.csv,Monday-start weeks since 2025-09-01
+hour,regressor_known_in_advance,ts_calendar_hourly.csv; ts_aggregate_hourly.csv,Hour of day 0-23
+day_of_week,regressor_known_in_advance,ts_calendar_hourly.csv; ts_aggregate_hourly.csv; ts_aggregate_daily.csv,0 = Monday ... 6 = Sunday
+is_weekend,regressor_known_in_advance,ts_calendar_hourly.csv; ts_aggregate_hourly.csv; ts_aggregate_daily.csv,Saturday or Sunday
+hour_of_week,descriptive,ts_calendar_hourly.csv; ts_aggregate_hourly.csv,"Position in the weekly cycle, 0-167 (= 24 * day_of_week + hour); key for weekly profiles and seasonal-naive forecasts. Not an input next to hour and day_of_week: the three are exactly collinear"
+time_band,regressor_known_in_advance,ts_calendar_hourly.csv; ts_aggregate_hourly.csv,EDA time band of the hour
+is_weekend_night,regressor_known_in_advance,ts_calendar_hourly.csv; ts_aggregate_hourly.csv,Friday or Saturday 20:00-04:59
+is_holiday,regressor_known_in_advance,ts_calendar_hourly.csv; ts_aggregate_hourly.csv; ts_aggregate_daily.csv,US federal holiday
+is_day_before_holiday,regressor_known_in_advance,ts_calendar_hourly.csv; ts_aggregate_hourly.csv; ts_aggregate_daily.csv,Day before a federal holiday
+is_day_after_holiday,regressor_known_in_advance,ts_calendar_hourly.csv; ts_aggregate_hourly.csv; ts_aggregate_daily.csv,Day after a federal holiday
+days_to_next_holiday,regressor_known_in_advance,ts_calendar_hourly.csv; ts_aggregate_hourly.csv; ts_aggregate_daily.csv,"Days to the next federal holiday, capped at 14"
+days_since_prev_holiday,regressor_known_in_advance,ts_calendar_hourly.csv; ts_aggregate_hourly.csv; ts_aggregate_daily.csv,"Days since the previous federal holiday, capped at 14"
+is_holiday_period,regressor_known_in_advance,ts_calendar_hourly.csv; ts_aggregate_hourly.csv; ts_aggregate_daily.csv,Thanksgiving week or Christmas-New Year period
+is_special_day,regressor_known_in_advance,ts_calendar_hourly.csv; ts_aggregate_hourly.csv; ts_aggregate_daily.csv,"Halloween, NYC Marathon, Black Friday, Christmas Eve or New Year's Eve"
+is_night_event,regressor_known_in_advance,ts_calendar_hourly.csv; ts_aggregate_hourly.csv,"Halloween night or New Year's Eve night, 20:00-04:59"
+is_dst_merged_hour,regressor_known_in_advance,ts_calendar_hourly.csv; ts_aggregate_hourly.csv,"2025-11-02 01:00, which holds two physical hours"
+is_dst_lag24_affected,regressor_known_in_advance,ts_calendar_hourly.csv; ts_aggregate_hourly.csv,Hour whose 24 h lag reads the DST hour
+is_dst_lag168_affected,regressor_known_in_advance,ts_calendar_hourly.csv; ts_aggregate_hourly.csv,Hour whose 168 h lag reads the DST hour
+contains_dst_merged_hour,regressor_known_in_advance,ts_aggregate_daily.csv,Day that contains the DST double hour (daily tables)
+fourier_daily_sin_1,regressor_known_in_advance,ts_calendar_hourly.csv; ts_aggregate_hourly.csv,Daily cycle: sin(2*pi*1*hour/24)
+fourier_daily_sin_2,regressor_known_in_advance,ts_calendar_hourly.csv; ts_aggregate_hourly.csv,Daily cycle: sin(2*pi*2*hour/24)
+fourier_daily_sin_3,regressor_known_in_advance,ts_calendar_hourly.csv; ts_aggregate_hourly.csv,Daily cycle: sin(2*pi*3*hour/24)
+fourier_daily_cos_1,regressor_known_in_advance,ts_calendar_hourly.csv; ts_aggregate_hourly.csv,Daily cycle: cos(2*pi*1*hour/24)
+fourier_daily_cos_2,regressor_known_in_advance,ts_calendar_hourly.csv; ts_aggregate_hourly.csv,Daily cycle: cos(2*pi*2*hour/24)
+fourier_daily_cos_3,regressor_known_in_advance,ts_calendar_hourly.csv; ts_aggregate_hourly.csv,Daily cycle: cos(2*pi*3*hour/24)
+fourier_weekly_sin_1,regressor_known_in_advance,ts_calendar_hourly.csv; ts_aggregate_hourly.csv; ts_aggregate_daily.csv,"Weekly cycle: sin(2*pi*1*hour_of_week/168) in hourly tables, sin(2*pi*1*day_of_week/7) in daily tables"
+fourier_weekly_sin_2,regressor_known_in_advance,ts_calendar_hourly.csv; ts_aggregate_hourly.csv; ts_aggregate_daily.csv,"Weekly cycle: sin(2*pi*2*hour_of_week/168) in hourly tables, sin(2*pi*2*day_of_week/7) in daily tables"
+fourier_weekly_sin_3,regressor_known_in_advance,ts_calendar_hourly.csv; ts_aggregate_hourly.csv; ts_aggregate_daily.csv,"Weekly cycle: sin(2*pi*3*hour_of_week/168) in hourly tables, sin(2*pi*3*day_of_week/7) in daily tables"
+fourier_weekly_cos_1,regressor_known_in_advance,ts_calendar_hourly.csv; ts_aggregate_hourly.csv; ts_aggregate_daily.csv,"Weekly cycle: cos(2*pi*1*hour_of_week/168) in hourly tables, cos(2*pi*1*day_of_week/7) in daily tables"
+fourier_weekly_cos_2,regressor_known_in_advance,ts_calendar_hourly.csv; ts_aggregate_hourly.csv; ts_aggregate_daily.csv,"Weekly cycle: cos(2*pi*2*hour_of_week/168) in hourly tables, cos(2*pi*2*day_of_week/7) in daily tables"
+fourier_weekly_cos_3,regressor_known_in_advance,ts_calendar_hourly.csv; ts_aggregate_hourly.csv; ts_aggregate_daily.csv,"Weekly cycle: cos(2*pi*3*hour_of_week/168) in hourly tables, cos(2*pi*3*day_of_week/7) in daily tables"
+apparent_temperature,regressor_needs_forecast,ts_aggregate_hourly.csv; ts_zone_hourly.csv,Hourly apparent temperature (series tables: mean over the series' zones)
+rain,regressor_needs_forecast,ts_aggregate_hourly.csv; ts_zone_hourly.csv,Hourly rain (series tables: mean over the series' zones)
+snowfall,regressor_needs_forecast,ts_aggregate_hourly.csv; ts_zone_hourly.csv,Hourly snowfall (series tables: mean over the series' zones)
+precipitation_probability,regressor_needs_forecast,ts_aggregate_hourly.csv; ts_zone_hourly.csv,Hourly precipitation probability (series tables: mean over the series' zones)
+apparent_temperature_mean,regressor_needs_forecast,ts_aggregate_daily.csv; ts_zone_daily.csv,"Daily mean apparent temperature, C"
+apparent_temperature_min,regressor_needs_forecast,ts_aggregate_daily.csv; ts_zone_daily.csv,"Daily minimum apparent temperature, C"
+apparent_temperature_max,regressor_needs_forecast,ts_aggregate_daily.csv; ts_zone_daily.csv,"Daily maximum apparent temperature, C"
+rain_total,regressor_needs_forecast,ts_aggregate_daily.csv; ts_zone_daily.csv,"Daily rain total, mm"
+snowfall_total,regressor_needs_forecast,ts_aggregate_daily.csv; ts_zone_daily.csv,"Daily snowfall total, cm"
+precipitation_probability_mean,regressor_needs_forecast,ts_aggregate_daily.csv; ts_zone_daily.csv,"Daily mean precipitation probability, %"
+precipitation_probability_max,regressor_needs_forecast,ts_aggregate_daily.csv; ts_zone_daily.csv,"Daily maximum precipitation probability, %"
+rain_hours,regressor_needs_forecast,ts_aggregate_daily.csv; ts_zone_daily.csv,Hours in the day with rain
+snow_hours,regressor_needs_forecast,ts_aggregate_daily.csv; ts_zone_daily.csv,Hours in the day with snowfall
+is_heavy_snow_day,regressor_needs_forecast,ts_calendar_hourly.csv; ts_aggregate_hourly.csv; ts_aggregate_daily.csv,Zone-median daily snowfall >= 5 cm (weather-derived)
+day_name,descriptive,ts_calendar_hourly.csv; ts_aggregate_hourly.csv; ts_aggregate_daily.csv,Weekday name (same information as day_of_week)
+month,descriptive,ts_calendar_hourly.csv; ts_aggregate_hourly.csv; ts_aggregate_daily.csv,"Calendar month; February occurs only in the test period, so not a model input"
+day_of_month,descriptive,ts_calendar_hourly.csv; ts_aggregate_hourly.csv; ts_aggregate_daily.csv,Day of the month
+holiday_name,descriptive,ts_calendar_hourly.csv; ts_aggregate_hourly.csv; ts_aggregate_daily.csv,"Holiday name or 'none'; MLK Day and Washington's Birthday occur only in validation/test, model with is_holiday"
+holiday_period,descriptive,ts_calendar_hourly.csv; ts_aggregate_hourly.csv; ts_aggregate_daily.csv,Holiday period name or 'none' (flag: is_holiday_period)
+special_day_name,descriptive,ts_calendar_hourly.csv; ts_aggregate_hourly.csv; ts_aggregate_daily.csv,Special day name or 'none' (flag: is_special_day)
+night_event_name,descriptive,ts_calendar_hourly.csv; ts_aggregate_hourly.csv,Night event name or 'none' (flag: is_night_event)
+n_zones,descriptive,ts_aggregate_hourly.csv; ts_aggregate_daily.csv,Number of zones in the series (constant per series)
+split,split,ts_calendar_hourly.csv; ts_aggregate_hourly.csv; ts_aggregate_daily.csv; ts_zone_daily.csv,train / validation / test (daily tables: split of the calendar day)
+split_daily,split,ts_calendar_hourly.csv; ts_aggregate_hourly.csv,Split of the calendar day the hour belongs to

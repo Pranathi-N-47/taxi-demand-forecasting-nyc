@@ -1,0 +1,40 @@
+[theme]
+base = "light"
+primaryColor = "#3456c4"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f3f5f9"
+textColor = "#1e293b"
+borderColor = "#e2e8f0"
+linkColor = "#3456c4"
+baseRadius = "0.6rem"
+buttonRadius = "0.5rem"
+# Inter is loaded from Google Fonts; without internet the app falls back to the system font.
+font = "Inter:https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap, sans-serif"
+headingFont = "Inter:https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap, sans-serif"
+headingFontWeights = [700, 650, 650, 600, 600, 600]
+baseFontSize = 15
+dataframeHeaderBackgroundColor = "#f3f5f9"
+dataframeBorderColor = "#e2e8f0"
+blueColor = "#3456c4"
+blueBackgroundColor = "#eef2fb"
+blueTextColor = "#2f4ea6"
+orangeColor = "#d08c00"
+orangeBackgroundColor = "#fdf5e4"
+orangeTextColor = "#8f5c00"
+greenColor = "#00917f"
+greenBackgroundColor = "#e8f6f3"
+greenTextColor = "#00715f"
+chartCategoricalColors = ["#3456c4", "#d08c00", "#00917f", "#b8622a", "#8a63c9", "#d2475e", "#3f97d6", "#6f8f00"]
+
+[theme.sidebar]
+backgroundColor = "#0f1b33"
+secondaryBackgroundColor = "#1b2a49"
+textColor = "#d6deeb"
+primaryColor = "#f5c35b"
+borderColor = "#24365a"
+
+[server]
+headless = true
+
+[browser]
+gatherUsageStats = false

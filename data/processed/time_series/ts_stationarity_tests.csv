@@ -1,0 +1,7 @@
+frequency,transformation,observations,adf_p_value,kpss_p_value,stationary_by_both_tests
+hourly,log1p level,3172,0.0,0.0184,False
+hourly,seasonal difference (168 h),3004,0.0013,0.1,True
+hourly,seasonal (168 h) + first difference,3003,0.0,0.1,True
+daily,log1p level,132,0.0156,0.0807,True
+daily,seasonal difference (7 days),125,0.0041,0.1,True
+daily,seasonal (7 days) + first difference,124,0.0,0.1,True

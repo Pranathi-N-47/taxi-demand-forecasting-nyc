@@ -1,0 +1,23 @@
+# Large data files - rebuilt by scripts/data_collection.ipynb (see data/DATA_GUIDE.md)
+data/raw/tlc_downloads/
+data/raw/NYC-taxi-demand-Manhattan-Queens.csv
+data/raw/*.part
+kaggle_download/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Review 2 reports are local reference files
+review_2_results.pdf
+review_2_results.html
+
+timeSeries/dataset/*

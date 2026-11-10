@@ -1,0 +1,7 @@
+algorithm,min_support_threshold,size
+Apriori,0.005,897
+Apriori,0.01,628
+Apriori,0.05,87
+FP-Growth,0.005,897
+FP-Growth,0.01,628
+FP-Growth,0.05,87
