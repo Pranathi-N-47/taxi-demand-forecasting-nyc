@@ -1,6 +1,6 @@
 # Weather-Aware Taxi Demand Prediction and Forecasting in New York City
 
-This is a submission-only repository. Find the original repository [here](https://github.com/BA-CapstoneProject-12/nyc-taxi-demand-forecasting).
+**This is a submission-only repository. Find the original repository [here](https://github.com/BA-CapstoneProject-12/nyc-taxi-demand-forecasting).**
 
 How many taxi pickups will each zone see in the next hour, day or week, and what
 should a fleet operator do about it? This project answers that for **138 pickup
